@@ -1,0 +1,8 @@
+selain->palvelin: HTTP POST 
+palvelin->selain: 302 (/notes)
+selain->palvelin: HTTP GET main.css
+palvelin->selain: main.css
+selain->palvelin: HTTP GET main.js
+palvelin->selain: main.js
+selain->palvelin: HTTP GET data.json
+palvelin->selain: data.json
