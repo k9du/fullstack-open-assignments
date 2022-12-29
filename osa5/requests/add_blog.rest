@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNyNyIsImlkIjoiNjNhYWNkNTliYmEwNWM0NzVmMTE5MmU4IiwiaWF0IjoxNjcyMTM4MjAxfQ.aO3-6bwuvym0G1RU-SlahgVaK4oMq1DJz-vwVleXouU
+
+{
+    "title": "blogi jep",
+    "author": "blogin kirjottaja",
+    "url": "blogisivu.com",
+}
